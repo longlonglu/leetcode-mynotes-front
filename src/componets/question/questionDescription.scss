@@ -1,0 +1,31 @@
+.md-question-post {
+  p {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+  code {
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #8c1f28;
+    border-radius: 0.3rem;
+    background-color: #bfbfbf;
+  }
+  strong {
+    font-size: 1rem;
+  }
+  em {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    color: #4c5958;
+    border-radius: 0.3rem;
+  }
+  pre {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
