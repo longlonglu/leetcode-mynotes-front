@@ -85,7 +85,7 @@ export default function EditAnswer({ questionId, setAnswers, questionName }) {
       />
       <div style={{ float: "right", marginBottom: "1%", marginTop: "1%" }}>
         {loading ? (
-          <CircularProgress color="secondary" size="2rem"/>
+          <CircularProgress color="secondary" size="2rem" />
         ) : (
           <Button
             color="secondary"
@@ -104,15 +104,15 @@ export default function EditAnswer({ questionId, setAnswers, questionName }) {
 }
 
 const initialAnswerContent =
-  "## 思路:" +
-  "\n" +
-  "\n" +
   `<img src=" " width="60%" height="auto"/>` +
   "\n" +
   "\n" +
-  "*. " +
+  "## 思路:" +
   "\n" +
-  "*. " +
+  "\n" +
+  "1. " +
+  "\n" +
+  "2. " +
   "\n" +
   "\n" +
   "___" +
