@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "dockerfileLines": [
     "FROM longlonglu68/docker-nginx-spa:arm64", 
-    "COPY ./build /app",
+    "COPY . /app",
     "RUN chmod -R 777 /app"
   ]
 }
