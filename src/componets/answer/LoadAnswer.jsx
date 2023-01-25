@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import customAxios from "../../hooks";
-import MarkDown from "../markdown/Markdown";
+import MDEditor from "@uiw/react-md-editor";
 
 const axios = customAxios();
 
@@ -14,8 +14,8 @@ export default function LoadAnswer({ answerUrl }) {
     loadAnswerMarkDown();
   }, []);
   return (
-    <>
-       <MarkDown contents={answerMarkDown} />
-    </>
+    <div data-color-mode="light">
+      <MDEditor.Markdown source={answerMarkDown} />
+    </div>
   );
 }
